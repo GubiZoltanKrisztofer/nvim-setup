@@ -1,8 +1,5 @@
+require("config.autocommands")
 require("config.keymaps")
 require("config.lazy")
-
-
-
-
-
-
+require("mason").setup()
+require("config.databasecon")
